@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\JDH1\Script\Player_M.cs" />
     <Compile Include="Assets\JDH2\Script2\Test.cs" />
+    <Compile Include="Assets\JDH2\Script2\BaseCharacterCTR.cs" />
+    <Compile Include="Assets\JDH2\Script2\PlayerCTR.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

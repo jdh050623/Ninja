@@ -2076,6 +2076,7 @@ GameObject:
   - component: {fileID: 1288455897}
   - component: {fileID: 1288455896}
   - component: {fileID: 1288455898}
+  - component: {fileID: 1288455900}
   - component: {fileID: 1288455899}
   m_Layer: 0
   m_Name: Player
@@ -2222,11 +2223,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288455893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ab618194be26a04596be038d66c4e8b, type: 3}
+  m_Script: {fileID: 11500000, guid: 016cbca5c747c0c4db419218c85feb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5
-  animator: {fileID: 1087385603}
+  velocityMin: {x: -100, y: -100}
+  velocityMax: {x: 100, y: 50}
+--- !u!114 &1288455900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288455893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2226d2fc223af048ad531b767b59287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityMin: {x: -100, y: -100}
+  velocityMax: {x: 100, y: 50}
+  initHpMax: 20
+  initSpeed: 12
 --- !u!1 &1331862313
 GameObject:
   m_ObjectHideFlags: 0
